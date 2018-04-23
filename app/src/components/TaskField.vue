@@ -17,7 +17,8 @@
             return {
                 numbers: [1, '', ''],
                 operators: ['+', '+', '='],
-                res: 8
+                res: 8,
+                active: 0
             }
         }
     }

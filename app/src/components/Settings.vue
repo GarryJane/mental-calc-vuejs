@@ -1,19 +1,22 @@
 <template>
     <div>
         <SettingsDescription></SettingsDescription>
-        <navBtn id="gameBtn" name="Game" url="#/game/"></navBtn>
+        <SettingsForm></SettingsForm>
+        <navBtn id="gameBtn" name="Play!" url="#/game/"></navBtn>
     </div>
 </template>
 
 <script>
 
     import SettingsDescription from './SettingsDescription'
+    import SettingsForm from './SettingsForm'
     import NavBtn from './NavBtn'
 
     export default {
         name: 'Settings',
-         components: {
+        components: {
             SettingsDescription,
+            SettingsForm,
             NavBtn
         }
     }

@@ -15,7 +15,6 @@
             setInterval(function () {
                 --self.timeLeft
             }, 1000)
-
         }
     }
 

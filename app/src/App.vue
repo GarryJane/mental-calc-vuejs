@@ -13,12 +13,10 @@
 </script>
 
 <style>
-
     .wrapper {
         position: relative;
-        margin: 15px;
-        min-width: 400px;
+        margin: 0 auto;
+        min-width: 320px;
         max-width: 800px;
     }
-
 </style>

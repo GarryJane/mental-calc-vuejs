@@ -1,21 +1,21 @@
 <template>
     <div>
-        <img src="../assets/under-construction.jpeg" alt="Under Construction">
-        <p>Cтраница настроек находится в стадии разработки.</p>
+        <h1> Игра "Устный счёт"</h1>
+        <p> Установите параметры сложности игры</p>
     </div>
 </template>
 
 <script>
     export default {
-        name: "test"
+        name: "settings-description"
     }
 </script>
 
 <style scoped>
 
-    p {
+    h1, p {
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 15px;
         font-size: 18px;
     }
 

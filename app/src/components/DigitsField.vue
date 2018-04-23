@@ -13,7 +13,7 @@
             <td><calc-btn btnName=">" btnClass="digitBtn digitBtn__nav"></calc-btn></td>        </tr>
         <tr>
             <td><calc-btn btnName="7" btnClass="digitBtn"></calc-btn></td>
-            <td><calc-btn btnName="9" btnClass="digitBtn"></calc-btn></td>
+            <td><calc-btn btnName="8" btnClass="digitBtn"></calc-btn></td>
             <td><calc-btn btnName="9" btnClass="digitBtn"></calc-btn></td>
             <td><calc-btn btnName="?" btnClass="digitBtn digitBtn__nav"></calc-btn></td>        </tr>
         <tr>
@@ -25,6 +25,7 @@
 
 <script>
     import CalcBtn from './CalcBtn'
+
     export default {
         name: "digits-field",
         components: {

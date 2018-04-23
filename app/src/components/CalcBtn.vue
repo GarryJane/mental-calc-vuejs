@@ -5,7 +5,7 @@
 <script>
     export default {
         name: "calc-btn",
-        props: ['btnName','btnClass']
+        props: ['btnName','btnClass'],
     }
 </script>
 
